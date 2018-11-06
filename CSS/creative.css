@@ -30,6 +30,15 @@ a {
   transition: all 0.2s;
 }
 
+#email {
+    color: #673767;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#email:hover {
+    color: #c322cc;
+}
+
 a:hover {
   color: #FFFFFF ;
 }
