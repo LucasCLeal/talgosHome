@@ -1,6 +1,6 @@
-# TALGOS LANDING PAGE
+# TALGOS LANDING PAGE 
 
-This project contains the source code to Talgos landing page.
+This project contains the source code to Talgos [landing page](https://talgosbeta.firebaseapp.com/).
 
 ## Getting started Started
 
