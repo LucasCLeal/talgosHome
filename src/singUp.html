@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+  <head>
+    <!-- Mobile Specific Meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png" />
+    <!-- Author Meta -->
+    <meta name="author" content="joeltonmatos" />
+    <!-- Meta Description -->
+    <meta name="description" content="Talgos Landing Page" />
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="talgo, landing page" />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>TALGOS</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/linearicons.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/hexagons.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- start header Area -->
+    <header id="header">
+      <div class="container main-menu">
+        <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+            <a href="#home" data-smoothie>
+              Talgos
+            </a>
+          </div>
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a href="#" id="lnk-logout" style="display:none;">Sair</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header Area -->
+
+    <!-- Start SignUp Area -->
+    <section
+      class="feature-area section-gap-top section-gap-bottom"
+      style="background-color: #7613C1"
+      id="benefits"
+    >
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row" style="align-items: center;">
+            <div class="col-lg-8 col-md-6">
+                <div class="container">
+                    <h2 class="section-heading text-white">login</h2>
+                    <div class="form-group">
+                        <label for="email" style="color:white;">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd" style="color:white;">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="btn-logIn">Acessar</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-benefits">
+                  <div class="text-center">
+                    <h2 class="section-heading text-white">Novo por aqui?</h2>
+                    <img src="./img/handshake-icon.png" alt="handshake-icon" width="55.56%"/>
+                    <p class="single-benefits-content">
+                      Inscreva-se e aceite os termos de acordo e você terá acesso aos nossos serviços. A partir disso estamos prontos para trabalharmos juntos.
+                    </p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#singUpModal">Inscrever</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End SignUp Area -->
+
+    <!-- Start Modal definition -->
+    <!-- SIGNUP Modal -->
+    <div id="singUpModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Inscrição</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="new_email" placeholder="email" name="email">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="new_pwd" placeholder="Enter password" name="pwd">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="singUP-btn" data-dismiss="modal">Inscrever-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Modal Difition -->
+
+    <!-- Start about-video Area -->
+    <!--  <section class="about-video-area section-gap">
+      <div class="vdo-bg">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div
+              class="col-lg-12 about-video-right justify-content-center align-items-center d-flex relative"
+            >
+              <div class="overlay overlay-bg"></div>
+              <a
+                class="play-btn"
+                href="https://www.youtube.com/watch?v=ARA0AxrnHdM"
+                ><img class="img-fluid mx-auto" src="img/play-btn.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End about-video Area -->
+
+    <!-- Start Testimonials Area -->
+    <!-- <section class="testimonials-area section-gap-top">
+      <div class="container">
+        <div class="testi-slider owl-carousel" data-slider-id="1">
+          <div class="item">
+            <div class="testi-item">
+              <img src="img/quote.png" alt="" />
+              <h4>Fanny Spencer</h4>
+              <ul class="list">
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+              </ul>
+              <div class="wow fadeIn" data-wow-duration="1s">
+                <p>
+                  As conscious traveling Paup ers we must always be oncerned
+                  about our dear Mother Earth. If you think about it, you travel
+                  across her face <br />
+                  and She is the host to your journey.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testi-item">
+              <img src="img/quote.png" alt="" />
+              <h4>Fanny Spencer</h4>
+              <ul class="list">
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+              </ul>
+              <div class="wow fadeIn" data-wow-duration="1s">
+                <p>
+                  As conscious traveling Paup ers we must always be oncerned
+                  about our dear Mother Earth. If you think about it, you travel
+                  across her face <br />
+                  and She is the host to your journey.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testi-item">
+              <img src="img/quote.png" alt="" />
+              <h4>Fanny Spencer</h4>
+              <ul class="list">
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+              </ul>
+              <div class="wow fadeIn" data-wow-duration="1s">
+                <p>
+                  As conscious traveling Paup ers we must always be oncerned
+                  about our dear Mother Earth. If you think about it, you travel
+                  across her face <br />
+                  and She is the host to your journey.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testi-item">
+              <img src="img/quote.png" alt="" />
+              <h4>Fanny Spencer</h4>
+              <ul class="list">
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-star"></i></a>
+                </li>
+              </ul>
+              <div class="wow fadeIn" data-wow-duration="1s">
+                <p>
+                  As conscious traveling Paup ers we must always be oncerned
+                  about our dear Mother Earth. If you think about it, you travel
+                  across her face <br />
+                  and She is the host to your journey.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="owl-thumbs d-flex justify-content-center"
+          data-slider-id="1"
+        >
+          <div class="owl-thumb-item">
+            <div>
+              <img class="img-fluid" src="img/testimonial/t1.jpg" alt="" />
+            </div>
+            <div class="overlay overlay-grad"></div>
+          </div>
+          <div class="owl-thumb-item">
+            <div>
+              <img class="img-fluid" src="img/testimonial/t2.jpg" alt="" />
+            </div>
+            <div class="overlay overlay-grad"></div>
+          </div>
+          <div class="owl-thumb-item">
+            <div>
+              <img class="img-fluid" src="img/testimonial/t3.jpg" alt="" />
+            </div>
+            <div class="overlay overlay-grad"></div>
+          </div>
+          <div class="owl-thumb-item">
+            <div>
+              <img class="img-fluid" src="img/testimonial/t4.jpg" alt="" />
+            </div>
+            <div class="overlay overlay-grad"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Testimonials Area -->
+
+    <!-- Start Screenshot Area -->
+    <!--   <section class="screenshot-area section-gap-top">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-title text-center">
+              <h2>Featured Screens</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="owl-carousel owl-screenshot">
+            <div class="single-screenshot">
+              <img class="img-fluid" src="img/screenshots/s1.jpg" alt="" />
+            </div>
+            <div class="single-screenshot">
+              <img class="img-fluid" src="img/screenshots/s2.jpg" alt="" />
+            </div>
+            <div class="single-screenshot">
+              <img class="img-fluid" src="img/screenshots/s3.jpg" alt="" />
+            </div>
+            <div class="single-screenshot">
+              <img class="img-fluid" src="img/screenshots/s4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Screenshot Area -->
+
+    <!-- Start Pricing Area -->
+    <!--  <section class="pricing-area">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-title text-center">
+              <h2>Suitable Pricing Plans</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single-price">
+              <div class="top-sec d-flex justify-content-between">
+                <div class="top-left">
+                  <h4>Standard</h4>
+                  <p>For the <br />individuals</p>
+                </div>
+                <div class="top-right">
+                  <h1>£199</h1>
+                </div>
+              </div>
+              <div class="end-sec">
+                <ul>
+                  <li>2.5 GB Free Photos</li>
+                  <li>Secure Online Transfer Indeed</li>
+                  <li>Unlimited Styles for interface</li>
+                  <li>Reliable Customer Service</li>
+                  <li>Manual Backup Provided</li>
+                </ul>
+                <button class="primary-btn price-btn mt-20">
+                  Purchase Plan
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-price">
+              <div class="top-sec d-flex justify-content-between">
+                <div class="top-left">
+                  <h4>Business</h4>
+                  <p>For <br />small Company</p>
+                </div>
+                <div class="top-right">
+                  <h1>£399</h1>
+                </div>
+              </div>
+              <div class="end-sec">
+                <ul>
+                  <li>2.5 GB Free Photos</li>
+                  <li>Secure Online Transfer Indeed</li>
+                  <li>Unlimited Styles for interface</li>
+                  <li>Reliable Customer Service</li>
+                  <li>Manual Backup Provided</li>
+                </ul>
+                <button class="primary-btn price-btn mt-20">
+                  Purchase Plan
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-price">
+              <div class="top-sec d-flex justify-content-between">
+                <div class="top-left">
+                  <h4>Ultimate</h4>
+                  <p>For <br />large Company</p>
+                </div>
+                <div class="top-right">
+                  <h1>£499</h1>
+                </div>
+              </div>
+              <div class="end-sec">
+                <ul>
+                  <li>2.5 GB Free Photos</li>
+                  <li>Secure Online Transfer Indeed</li>
+                  <li>Unlimited Styles for interface</li>
+                  <li>Reliable Customer Service</li>
+                  <li>Manual Backup Provided</li>
+                </ul>
+                <button class="primary-btn price-btn mt-20">
+                  Purchase Plan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Pricing Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer-area footer-section-gap">
+      <div class="container">
+        <div class="footer-bottom row align-items-center">
+          <p class="footer-text m-0 col-lg-6 col-md-12">
+            Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | TALGOS
+          </p>
+          <div class="col-lg-6 col-md-12 social-link">
+            <div class="footer-text d-flex flex-row justify-content-end">
+              company@talgos.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Area -->
+    <!-- FIRE BASE LIB -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDKC9yhd4V6qMQGo7d83tCy2t8ynj7ClJM",
+        authDomain: "talgosbeta.firebaseapp.com",
+        databaseURL: "https://talgosbeta.firebaseio.com",
+        projectId: "talgosbeta"
+      };
+      firebase.initializeApp(config);
+
+      <!-- constantes pare refereciar no codigo-->
+      const auth = firebase.auth();
+      const db = firebase.firestore();
+
+    </script>
+    <!-- Custom scripts for this template -->
+    <script src="js/SignUp.js"></script>
+    <!-- Page scripts for this template -->
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"
+    ></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/hexagons.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/smoothie.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
